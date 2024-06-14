@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    background: #021024;
+    margin: 0;
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+    margin-top: 30px;
+    border: 8px solid #7da0ca;
+    border-width: 1px 20px 1px 1px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: "Arima Madurai", cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 35px;
+    color: #7da0ca;
+    text-shadow: #c1e8ff 2px 2px 2px;
+    padding: 15px;
+}
+
+#container {
+    width: 100%;
+    max-width: 500px;
+    margin: 5px;
+}
+
+.section {
+    margin-top: 30px;
+    background-color: #c1e8ff;
+    padding: 50px 30px;
+    border: 1.5px solid #5483b3;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px #052659;
+}
+
+#my-qr-reader {
+    padding: 20px !important;
+    border: 1.5px solid #b2b2b2 !important;
+    border-radius: 8px;
+}
+ 
+#my-qr-reader img[alt="Info icon"] {
+    display: none;
+}
+ 
+#my-qr-reader img[alt="Camera based scan"] {
+    width: 100px !important;
+    height: 100px !important;
+}
+ 
+button {
+    padding: 10px 20px;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    border-radius: 0.25em;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #7da0ca;
+    transition: 0.3s background-color;
+}
+ 
+button:hover {
+    background-color: #052659;
+}
+ 
+#html5-qrcode-anchor-scan-type-change {
+    text-decoration: none !important;
+    color: #1d9bf0;
+}
+ 
+video {
+    width: 100% !important;
+    border: 1px solid #b2b2b2 !important;
+    border-radius: 0.25em;
+}
